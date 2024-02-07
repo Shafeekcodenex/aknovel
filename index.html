@@ -1,0 +1,882 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aknovel</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- google fonts link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arima:wght@400;600;700&family=Poppins:wght@400;600;700&family=Quicksand:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&family=Roboto:wght@400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- Aos css link -->
+  <link rel='stylesheet' href='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css'>
+  <!-- css link -->
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- owl carousel css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <div id="preloader" class="preloader-1">
+    <div class="preloader-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="400" height="320" viewBox="0 0 673.497 168.009">
+            <rect id="Rectangle_1" data-name="Rectangle 1" width="219.308" height="5.593" transform="translate(105.539 135.138)" fill="#1b437a"/>
+            <path id="Path_1" data-name="Path 1" d="M366.471,476.861l43.553,37.254V494.833l.061-55.227Z" transform="translate(-211.503 -422.963)" fill="#1b437a" fill-rule="evenodd"/>
+            <path id="Path_2" data-name="Path 2" d="M533.214,463.6a33.95,33.95,0,0,1,7.448-10.992,36.406,36.406,0,0,1,11.065-7.447,34.553,34.553,0,0,1,27.092,0A35.153,35.153,0,0,1,597.258,463.6a34.548,34.548,0,0,1,0,27.1,35.153,35.153,0,0,1-18.439,18.439,34.541,34.541,0,0,1-27.092,0,36.424,36.424,0,0,1-11.065-7.447,34.96,34.96,0,0,1-7.448-38.087m-13.547,32.98a49.627,49.627,0,0,0,26.456,26.454,48.273,48.273,0,0,0,19.291,3.9,49.331,49.331,0,0,0,21.135-4.254A44.5,44.5,0,0,0,601.657,511.4a48.29,48.29,0,0,0,9.079-15.886,56.012,56.012,0,0,0,0-36.456,48.335,48.335,0,0,0-9.079-15.887A44.483,44.483,0,0,0,586.549,431.9a49.331,49.331,0,0,0-21.135-4.256,48.359,48.359,0,0,0-19.291,3.9A49.639,49.639,0,0,0,519.667,458a49.672,49.672,0,0,0,0,38.582Zm-9.573,33.336V427.643H495.057v65.251l-71.208-68.937v102.98h15.32V460.129Zm-236.32-46.954H248.667l12.625-26.1ZM227.39,526.937q3.261-6.666,6.951-14.255t6.951-14.4h39.717l13.476,28.653h16.454L261.292,422.963,211.5,526.937Z" transform="translate(-211.503 -422.963)" fill="#ca2127"/>
+            <path id="Path_3" data-name="Path 3" d="M885,526.937v-15.32H815.638V427.643H800.319v99.294Zm-90.357,0v-15.32H725.422v-28.51h62.837V467.93H725.422V442.963h69.221v-15.32H710.1v99.294Zm-140-29.361-33.9-69.933H604.85l49.789,102.7,49.788-102.7H688.115Z" transform="translate(-211.503 -422.963)" fill="#ca2127"/>
+            <path id="Path_4" data-name="Path 4" d="M332.217,527.08v-44.4l46.385,44.4h22.27L346.26,476.156l54.895-48.369h-21.42L332.217,470.2V427.786H316.9V527.08Z" transform="translate(-211.503 -422.963)" fill="#cb2027"/>
+            <rect id="Rectangle_2" data-name="Rectangle 2" width="219.674" height="5.593" transform="translate(105.434 158.095)" fill="#1b437a"/>
+            <path id="Path_5" data-name="Path 5" d="M762.294,572.318h21.638q4.825,0,6.39-1.154c1.047-.76,1.572-2.38,1.572-4.835v-1.71c0-2.455-.525-4.074-1.572-4.835s-3.173-1.154-6.39-1.154H762.294Zm0,18.112H757.86V554.744h24.8q8.507,0,11.241,1.824t2.734,6.669v4.672q0,4.836-2.717,6.634t-11.258,1.8h-20.37Zm-38.967.434a38.737,38.737,0,0,1-7.771-.564,9.375,9.375,0,0,1-4.124-1.931,8.422,8.422,0,0,1-2.537-3.953,21.878,21.878,0,0,1-.792-6.544V554.744h4.556v23.128a20.993,20.993,0,0,0,.287,4.124,6.165,6.165,0,0,0,.957,2.208,5.226,5.226,0,0,0,2.674,1.972,15.084,15.084,0,0,0,4.828.613h14.668a15.077,15.077,0,0,0,4.843-.613A5.424,5.424,0,0,0,743.6,584.2a5.89,5.89,0,0,0,.94-2.208,21.065,21.065,0,0,0,.279-4.124V554.744h4.557V577.61a23.228,23.228,0,0,1-.794,6.685,8.58,8.58,0,0,1-2.487,4.074,8.829,8.829,0,0,1-4.057,1.931,39,39,0,0,1-7.813.564Zm-37.314-32.626H669.872a18.284,18.284,0,0,0-5.32.6,5.783,5.783,0,0,0-2.927,1.988,6.176,6.176,0,0,0-1.08,2.389,23.721,23.721,0,0,0-.312,4.59v9.377a23.7,23.7,0,0,0,.312,4.589,6.174,6.174,0,0,0,1.08,2.387,5.76,5.76,0,0,0,2.927,1.989,18.209,18.209,0,0,0,5.32.6h16.141a18.211,18.211,0,0,0,5.325-.6,5.749,5.749,0,0,0,2.929-1.989,6.278,6.278,0,0,0,1.031-2.29,20.08,20.08,0,0,0,.312-4.14V567.252a19.952,19.952,0,0,0-.312-4.147,6.274,6.274,0,0,0-1.031-2.283,5.772,5.772,0,0,0-2.929-1.988A18.286,18.286,0,0,0,686.013,558.238Zm-13.982,32.626a45.688,45.688,0,0,1-8.459-.564,10.372,10.372,0,0,1-4.458-1.931,8.512,8.512,0,0,1-2.774-4.026,20.891,20.891,0,0,1-.85-6.569v-9.736a23.975,23.975,0,0,1,.841-7.091,8.373,8.373,0,0,1,2.732-4.142,10.586,10.586,0,0,1,4.492-1.922,45.346,45.346,0,0,1,8.426-.573H683.9a45.37,45.37,0,0,1,8.434.573,10.554,10.554,0,0,1,4.491,1.922,8.329,8.329,0,0,1,2.709,4.058,21.786,21.786,0,0,1,.866,6.75v9.948a21.743,21.743,0,0,1-.866,6.759,8.339,8.339,0,0,1-2.709,4.049A10.192,10.192,0,0,1,692.4,590.3a45.883,45.883,0,0,1-8.5.564Zm-58.7-.434H608.9V554.744h25.475q8.516,0,11.281,1.808t2.768,6.676v4.286c0,2.21-.459,3.821-1.376,4.846a9.022,9.022,0,0,1-4.9,2.273,6.38,6.38,0,0,1,4.409,2.078,7.318,7.318,0,0,1,1.481,4.876v8.843H643.6v-7.96q0-3.5-1.52-4.771c-1.016-.84-3.379-1.267-7.1-1.267H613.331Zm22.482-31.8H613.331v13.68h22.482q4.8,0,6.365-1.188c1.048-.793,1.57-2.388,1.57-4.8v-1.7q0-3.6-1.57-4.8T635.813,558.63Zm-47.745,28.11q5.154,0,6.831-1.6c1.121-1.072,1.678-3.387,1.678-6.929v-1.824h-18.31v-3.977h22.768v5.8a26.163,26.163,0,0,1-.646,7.149,7.035,7.035,0,0,1-2.208,3.257,8.579,8.579,0,0,1-4.026,1.743,49.063,49.063,0,0,1-8.385.507H573.015a39.521,39.521,0,0,1-7.928-.572,9.548,9.548,0,0,1-4.2-1.973,8.618,8.618,0,0,1-2.577-3.976,21.951,21.951,0,0,1-.8-6.569v-9.727a25.223,25.223,0,0,1,.8-7.092,8.617,8.617,0,0,1,2.577-4.15,9.416,9.416,0,0,1,4.2-1.929,40.127,40.127,0,0,1,7.878-.566h12.8q8.748,0,11.837,2.169t3.093,7.9c0,.489-.008.865-.008,1.137s-.025.516-.041.751h-4.074v-.523c0-2.79-.615-4.729-1.832-5.842s-3.4-1.668-6.5-1.668H571.2a15.79,15.79,0,0,0-4.941.6,5.514,5.514,0,0,0-2.733,2,6.339,6.339,0,0,0-.983,2.348,25.6,25.6,0,0,0-.287,4.581v9.465a25.586,25.586,0,0,0,.287,4.574,6.355,6.355,0,0,0,.983,2.347,5.337,5.337,0,0,0,2.748,2,15.829,15.829,0,0,0,4.926.6Z" transform="translate(-211.503 -422.963)" fill="#1b437a"/>
+            <path id="Path_6" data-name="Path 6" d="M762.294,572.318h21.638q4.825,0,6.39-1.154c1.047-.76,1.572-2.38,1.572-4.835v-1.71c0-2.455-.525-4.074-1.572-4.835s-3.173-1.154-6.39-1.154H762.294Zm0,18.112H757.86V554.744h24.8q8.507,0,11.241,1.824t2.734,6.669v4.672q0,4.836-2.717,6.634t-11.258,1.8h-20.37Zm-38.967.434a38.737,38.737,0,0,1-7.771-.564,9.375,9.375,0,0,1-4.124-1.931,8.422,8.422,0,0,1-2.537-3.953,21.878,21.878,0,0,1-.792-6.544V554.744h4.556v23.128a20.993,20.993,0,0,0,.287,4.124,6.165,6.165,0,0,0,.957,2.208,5.226,5.226,0,0,0,2.674,1.972,15.084,15.084,0,0,0,4.828.613h14.668a15.077,15.077,0,0,0,4.843-.613A5.424,5.424,0,0,0,743.6,584.2a5.89,5.89,0,0,0,.94-2.208,21.065,21.065,0,0,0,.279-4.124V554.744h4.557V577.61a23.228,23.228,0,0,1-.794,6.685,8.58,8.58,0,0,1-2.487,4.074,8.829,8.829,0,0,1-4.057,1.931,39,39,0,0,1-7.813.564Zm-37.314-32.626H669.872a18.284,18.284,0,0,0-5.32.6,5.783,5.783,0,0,0-2.927,1.988,6.176,6.176,0,0,0-1.08,2.389,23.721,23.721,0,0,0-.312,4.59v9.377a23.7,23.7,0,0,0,.312,4.589,6.174,6.174,0,0,0,1.08,2.387,5.76,5.76,0,0,0,2.927,1.989,18.209,18.209,0,0,0,5.32.6h16.141a18.211,18.211,0,0,0,5.325-.6,5.749,5.749,0,0,0,2.929-1.989,6.278,6.278,0,0,0,1.031-2.29,20.08,20.08,0,0,0,.312-4.14V567.252a19.952,19.952,0,0,0-.312-4.147,6.274,6.274,0,0,0-1.031-2.283,5.772,5.772,0,0,0-2.929-1.988A18.286,18.286,0,0,0,686.013,558.238Zm-13.982,32.626a45.688,45.688,0,0,1-8.459-.564,10.372,10.372,0,0,1-4.458-1.931,8.512,8.512,0,0,1-2.774-4.026,20.891,20.891,0,0,1-.85-6.569v-9.736a23.975,23.975,0,0,1,.841-7.091,8.373,8.373,0,0,1,2.732-4.142,10.586,10.586,0,0,1,4.492-1.922,45.346,45.346,0,0,1,8.426-.573H683.9a45.37,45.37,0,0,1,8.434.573,10.554,10.554,0,0,1,4.491,1.922,8.329,8.329,0,0,1,2.709,4.058,21.786,21.786,0,0,1,.866,6.75v9.948a21.743,21.743,0,0,1-.866,6.759,8.339,8.339,0,0,1-2.709,4.049A10.192,10.192,0,0,1,692.4,590.3a45.883,45.883,0,0,1-8.5.564Zm-58.7-.434H608.9V554.744h25.475q8.516,0,11.281,1.808t2.768,6.676v4.286c0,2.21-.459,3.821-1.376,4.846a9.022,9.022,0,0,1-4.9,2.273,6.38,6.38,0,0,1,4.409,2.078,7.318,7.318,0,0,1,1.481,4.876v8.843H643.6v-7.96q0-3.5-1.52-4.771c-1.016-.84-3.379-1.267-7.1-1.267H613.331Zm22.482-31.8H613.331v13.68h22.482q4.8,0,6.365-1.188c1.048-.793,1.57-2.388,1.57-4.8v-1.7q0-3.6-1.57-4.8T635.813,558.63Zm-47.745,28.11q5.154,0,6.831-1.6c1.121-1.072,1.678-3.387,1.678-6.929v-1.824h-18.31v-3.977h22.768v5.8a26.163,26.163,0,0,1-.646,7.149,7.035,7.035,0,0,1-2.208,3.257,8.579,8.579,0,0,1-4.026,1.743,49.063,49.063,0,0,1-8.385.507H573.015a39.521,39.521,0,0,1-7.928-.572,9.548,9.548,0,0,1-4.2-1.973,8.618,8.618,0,0,1-2.577-3.976,21.951,21.951,0,0,1-.8-6.569v-9.727a25.223,25.223,0,0,1,.8-7.092,8.617,8.617,0,0,1,2.577-4.15,9.416,9.416,0,0,1,4.2-1.929,40.127,40.127,0,0,1,7.878-.566h12.8q8.748,0,11.837,2.169t3.093,7.9c0,.489-.008.865-.008,1.137s-.025.516-.041.751h-4.074v-.523c0-2.79-.615-4.729-1.832-5.842s-3.4-1.668-6.5-1.668H571.2a15.79,15.79,0,0,0-4.941.6,5.514,5.514,0,0,0-2.733,2,6.339,6.339,0,0,0-.983,2.348,25.6,25.6,0,0,0-.287,4.581v9.465a25.586,25.586,0,0,0,.287,4.574,6.355,6.355,0,0,0,.983,2.347,5.337,5.337,0,0,0,2.748,2,15.829,15.829,0,0,0,4.926.6Z" transform="translate(-211.503 -422.963)" fill="none" stroke="#1b437a" stroke-miterlimit="2.613" stroke-width="0.216"/>
+          </svg>
+    </div>
+</div>
+
+<script>
+  window.onload = function(){
+	setTimeout(function(){
+	document.getElementsByClassName("preloader-1")[0].style.display = "none";
+	document.getElementsByClassName("text-anime")[0].style.display = "block";
+	},2000)
+}//强制显示loading page 1s
+</script>
+
+<style>
+    #preloader {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        z-index: 99999;
+        overflow: hidden;
+    }
+    .preloader-logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        animation: fadeInLogo 3s ease-in-out forwards; 
+    }
+    #Rectangle_1 {
+        animation: animateOne -0.5s linear 0.8s infinite alternate;
+    }
+    #Rectangle_2 {
+        animation: animateTwo -0.8s linear 1s infinite alternate;
+    }
+    #Path_1 {
+        transform-origin: bottom right;
+        animation: spin 5s cubic-bezier(.8, 0, .2, 1) ;
+    }
+    #Path_2 {
+        
+    }
+    #Path_3 {
+
+    }
+    #Path_4 {
+        
+    }
+    #Path_5 {
+        / animation: animateOne -0.5s linear 0.8s infinite alternate; /
+    }
+    #Path_6 {
+        / animation: animateTwo -0.8s linear 1s infinite alternate; /
+    }
+    @keyframes animateOne {
+        0% {
+            opacity: 0;
+            fill: #ffff;
+        }
+        100% {
+            opacity: 1;
+            fill: #1b437a;
+        }
+    }
+    @keyframes animateTwo {
+        0% {
+            opacity: 0;
+            fill: #ffff;
+        }
+        100% {
+            opacity: 1;
+            fill: #1b437a;
+        }
+    }
+    @keyframes spin {
+0% { transform: rotate(0deg); }
+50% { transform: rotate(45deg); }
+}
+
+@keyframes fadeInLogo {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animateOne {
+    0% {
+        opacity: 0;
+        fill: #ffff;
+    }
+    100% {
+        opacity: 1;
+        fill: #1b437a;
+    }
+}
+</style>
+  <header>
+    <div class="main-container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="index.html"><img src="images/main-logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 header-navbar">
+            <li class="nav-item">
+              <a class="nav-link style-1 active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link style-1" href="our-founder.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link style-1" href="our-companies.html">Our Companies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link style-1" href="#">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link style-1" href="contact.php">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <section class="banner-main">
+    <img src="images/main-banner.png" alt="">
+    <div class="text-anime" style="display: none;">
+      <h1>
+        <span>AKNOVEL</span>
+        <span>GROUP</span>
+        <span>is</span>
+        <span>a multinational</span>
+        <span>conglomerate</span>
+        <span>founded</span>
+        <span>by</span>
+        <span>Abdulla</span>
+        <span>Koya in 1981,</span>
+        <span>Abu Dhabi,</span>
+        <span>UAE.</span>
+        <span>Headquartered</span>
+        <span>in India,</span>
+        <span>the</span>
+        <span>group</span>
+        <span>is built</span>
+        <span>on a strong</span>
+        <span>foundation</span>
+        <span>of stakeholder</span>
+        <span>value</span>
+        <span>creation</span>
+        <span>with a mission</span>
+        <span>to discover,</span>
+        <span>develop</span>
+        <span>and</span>
+        <span>commercialise</span>
+        <span>world-class</span>
+        <span>products</span>
+        <span>and</span>
+        <span>services.</span>
+      </h1>
+    </div>
+  </section>
+
+  <div class="grp-cpmns-carsl">
+    <div class="main-container">
+      <div class="grp-cmpns-carsl">
+        <h2>Our Companies:</h2>
+      </div>
+    </div>
+    <div class="owl-carousel banner-owl owl-theme">
+      <a href="our-companies.html">
+        <div class="item"><img src="images/carousel-3.png" alt=""></div>
+      </a>
+      <a href="our-companies.html">
+        <div class="item"><img src="images/carousel-5.png" alt=""></div>
+      </a>
+      <a href="our-companies.html">
+        <div class="item"><img src="images/carousel-7.png" alt=""></div>
+      </a>
+      <a href="our-companies.html">
+        <div class="item"><img src="images/carousel-8.png" alt=""></div>
+      </a>
+      <a href="our-companies.html">
+        <div class="item"><img src="images/carousel-9.png" alt=""></div>
+      </a>
+    </div>
+  </div>
+
+  <section class="our-companies-section">
+    <div class="main-container">
+      <div class="our-team-head">
+        <h1 data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="900">
+          Our Founder
+        </h1>
+        <p data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="1500">Aknovel Cooperative Company members are
+          the threads that weave the fabric <span>
+            of our success. Together, we create stories of collaboration, growth, and shared prosperity.
+          </span> </p>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="our-founder">
+        <div class="row founder-row">
+          <div class="col-lg-6 founder-main">
+            <div class="founder">
+              <h3 data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="900">Abdulla Koya</h3>
+              <h4 data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="1500">Founder & Chairman
+              </h4>
+              <p data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="2000">Palliyulla Kariat Abdulla Koya (P
+                K Abdulla Koya) (born 13 February 1957) is an Indian entrepreneur from Abu Dhabi and Garshom Award
+                winner. He is the founder and chairman of the AKNOVEL Group. Abdulla Koya has helped over 50,000 people
+                across country to gain self-employment.
+                <br>
+                Abdulla Koya is from Calicut in North Kerala. He is the third son of the late Kasmi Koya and Beevi. He
+                was forced to find out small jobs as daily wages to support his family. He worked in several sectors for
+                earning the minimum to help his family. In 1978, Abdulla Koya arrived in United Arab Emirates.
+                <br>
+                Abdulla Koya established branded stamp products such as Sun Stamper with Japanese Technology during 1998
+                by providing products to the common business segment by associating with international manufactures and
+                Addprint.Abdulla Koya entered the supply of telecommunication equipment, in the telecom and Power
+                Project field through MELTRAX Electro Mechanical & communication system. His Other notable
+                diversification are M/S National Tile Works, Beta Granite (P) Ltd, Walayar steels, Musou Micro Flash
+                Foams Pvt Ltd., Crest Wood.
+              </p>
+              <div class="wiki-chronicle">
+                <div class="wikipedia" data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="1000">
+                  <a href="https://en.wikipedia.org/wiki/P_K_Abdulla_Koya"><img class="w-100"
+                      src="images/icons/wikipedia.png" alt=""></a>
+                </div>
+                <div class="wikipedia" data-aos="fade-up-right" data-aos-delay="50" data-aos-duration="1300">
+                  <a
+                    href="http://deccanchronicle.com/nation/current-affairs/190519/pk-abdulla-koyas-seal-to-a-made-in-gulf-success-story.html"><img
+                      class="w-100" src="images/icons/chronicle.png" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 founder-img">
+            <img data-aos="zoom-in-up" data-aos-delay="50" data-aos-duration="1000" src="images/founder.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="our-team-sec">
+    <div class="main-container">
+
+    </div>
+    <div class="our-team-wrapper">
+      <div class="main-container">
+        <div class="our-team-head">
+          <h1 data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="900">
+            Our Team
+          </h1>
+          <p data-aos="fade-up-right" data-aos-delay="500" data-aos-duration="1500">Aknovel Cooperative Company members
+            are the threads that weave the fabric <span>
+              of our success. Together, we create stories of collaboration, growth, and shared prosperity.
+            </span> </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3" class="col-lg-4" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" style="border: none;">
+              <div class="our-team">
+                <img class="w-100" src="images/our-team-1.jpg" alt="">
+
+                <div class="our-team-names">
+                  <h2>Ronald Richards</h2>
+                  <p>Finance Manager</p>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content our-team-content">
+                <div class="modal-header our-team-header" style="border-bottom: none">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modal-body-wrapper">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom">
+                        <img class="w-100" src="images/our-team-1.jpg" alt="">
+                        <h2>Ronald Richards</h2>
+                        <p>Finance Manager</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom-2">
+                        <h1>
+                          Our Team Member
+                        </h1>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an
+                          unknown printer took a galley of type
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3" class="col-lg-4" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1100">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal1" style="border: none;">
+              <div class="our-team">
+                <img class="w-100" src="images/our-team-2.jpg" alt="">
+
+                <div class="our-team-names">
+                  <h2>Wade Warren</h2>
+                  <p>Marketing Coordinator</p>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content our-team-content">
+                <div class="modal-header our-team-header" style="border-bottom: none">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modal-body-wrapper">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom">
+                        <img class="w-100" src="images/our-team-2.jpg" alt="">
+                        <h2>Wade Warren</h2>
+                        <p>Marketing Coordinator</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom-2">
+                        <h1>
+                          Our Team Member
+                        </h1>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an
+                          unknown printer took a galley of type
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3" class="col-lg-4" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1200">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2" style="border: none;">
+              <div class="our-team">
+                <img class="w-100" src="images/our-team-3.jpg" alt="">
+
+                <div class="our-team-names">
+                  <h2>Kristin Watson</h2>
+                  <p>General Manager</p>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content our-team-content">
+                <div class="modal-header our-team-header" style="border-bottom: none">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modal-body-wrapper">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom">
+                        <img class="w-100" src="images/our-team-3.jpg" alt="">
+                        <h2>Kristin Watson</h2>
+                        <p>General Manager</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom-2">
+                        <h1>
+                          Our Team Member
+                        </h1>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an
+                          unknown printer took a galley of type
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3" class="col-lg-4" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1300">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3" style="border: none;">
+              <div class="our-team">
+                <img class="w-100" src="images/our-team-4.jpg" alt="">
+
+                <div class="our-team-names">
+                  <h2>Dianne Russell</h2>
+                  <p>Auditor</p>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content our-team-content">
+                <div class="modal-header our-team-header" style="border-bottom: none">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modal-body-wrapper">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom">
+                        <img class="w-100" src="images/our-team-4.jpg" alt="">
+                        <h2>Dianne Russell</h2>
+                        <p>Auditor</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom-2">
+                        <h1>
+                          Our Team Member
+                        </h1>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an
+                          unknown printer took a galley of type
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3" class="col-lg-4" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1400">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4" style="border: none;">
+              <div class="our-team our-team-2">
+                <img class="w-100" src="images/our-team-5.jpg" alt="">
+
+                <div class="our-team-names">
+                  <h2>Jasmine</h2>
+                  <p>Board of Directors</p>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content our-team-content">
+                <div class="modal-header our-team-header" style="border-bottom: none">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modal-body-wrapper">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom">
+                        <img class="w-100" src="images/our-team-5.jpg" alt="">
+                        <h2>Jasmine</h2>
+                        <p>Board of Directors</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom-2">
+                        <h1>
+                          Our Team Member
+                        </h1>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an
+                          unknown printer took a galley of type
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3" class="col-lg-4" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1500">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal5" style="border: none;">
+              <div class="our-team our-team-2">
+                <img class="w-100" src="images/our-team-6.jpg" alt="">
+
+                <div class="our-team-names">
+                  <h2>Aaliyah</h2>
+                  <p>Finance Manager</p>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content our-team-content">
+                <div class="modal-header our-team-header" style="border-bottom: none">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modal-body-wrapper">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom">
+                        <img class="w-100" src="images/our-team-6.jpg" alt="">
+                        <h2>Aaliyah</h2>
+                        <p>Finance Manager</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom-2">
+                        <h1>
+                          Our Team Member
+                        </h1>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an
+                          unknown printer took a galley of type
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3" class="col-lg-4" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1600">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal6" style="border: none;">
+              <div class="our-team our-team-2">
+                <img class="w-100" src="images/our-team-7.jpg" alt="">
+
+                <div class="our-team-names">
+                  <h2>Ariella</h2>
+                  <p>Finance Manager</p>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content our-team-content">
+                <div class="modal-header our-team-header" style="border-bottom: none">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modal-body-wrapper">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom">
+                        <img class="w-100" src="images/our-team-7.jpg" alt="">
+                        <h2>Ariella</h2>
+                        <p>Finance Manager</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom-2">
+                        <h1>
+                          Our Team Member
+                        </h1>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an
+                          unknown printer took a galley of type
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3" class="col-lg-4" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1700">
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal7" style="border: none;">
+              <div class="our-team our-team-2">
+                <img class="w-100" src="images/our-team-8.jpg" alt="">
+
+                <div class="our-team-names">
+                  <h2>Amelia</h2>
+                  <p>IT Specialist</p>
+                </div>
+              </div>
+            </button>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content our-team-content">
+                <div class="modal-header our-team-header" style="border-bottom: none">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body modal-body-wrapper">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom">
+                        <img class="w-100" src="images/our-team-8.jpg" alt="">
+                        <h2>Amelia</h2>
+                        <p>IT Specialist</p>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="modal-body-custom-2">
+                        <h1>
+                          Our Team Member
+                        </h1>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and
+                          typesetting industry. Lorem Ipsum has been the industry's
+                          standard dummy text ever since the 1500s, when an
+                          unknown printer took a galley of type.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <footer>
+    <div class="main-container">
+      <div class="footer-wrapper">
+        <div class="row">
+          <div class="col-lg-5 col-md-5">
+            <a href="index.html">
+              <img class="footer-main-logo" src="images/main-logo.png" alt="">
+            </a>
+
+            <p>Aknovel Cooperative Company members are
+              <span> the threads that weave the fabric of our </span>
+              <span> success. Together, we create stories of </span>
+              collaboration, growth, and shared prosperity.
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-2 footer-list">
+            <h4>INFORMATION</h4>
+            <ul>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Partners</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-2 footer-list footer-list-1">
+            <h4>MENU</h4>
+            <ul>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Companies</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-3 footer-algn-col">
+            <div class="footer-rqst-call">
+              <a href="#">Request a call</a>
+            </div>
+            <div class="rqst-call">
+              <h5>
+                +91 999 985 9988
+              </h5>
+              <h5>
+                info@aknovel.com
+              </h5>
+            </div>
+            <div class="rqst-call rqst-call-1">
+              <h5>
+                1901 Kozhikode, <br>
+                Westhill 81063
+              </h5>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="footer-scl-mda">
+          <div class="social-media">
+            <a href="#"><img src="images/icons/footer-share.png" alt=""></a>
+          </div>
+          <div class="social-media social-media-1">
+            <a href="#"><img src="images/icons/footer-whatsapp.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="aftr-footer">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Lorem Ipsum Is Simply Dummy Text Of The Printing </h2>
+          </div>
+          <div class="col-lg-6 footer-mail-send">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Just send us your contact email and we will contact you.</label>
+              <form>
+                <input type="search" class="form-control" placeholder="YOUR EMAIL">
+                <button type="submit">Arrow</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- copyright -->
+      <div class="copy-right">
+        <h5>Copyright © 2024 | All Rights Reserved | Powered By codenex.in</h5>
+      </div>
+    </div>
+  </footer>
+
+  <!-- enquiry side button -->
+  <div class="float-container">
+    <ul>
+      <a href="contact.php">
+        <li>Enquiry</li>
+      </a>
+    </ul>
+  </div>
+
+  <!-- whatsapp chat button -->
+  <div class="whtsapp-chat">
+    <a href="#">
+      <img src="images/icons/whatsapp-chat.png" alt="">
+    </a>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+
+  <!-- owl carousel js link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+
+  <script>
+    $('.banner-owl').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: false,
+      autoplay: true,
+      autoplayHoverPause: true,
+      stagePadding: 80,
+      autoplayTimeout: 3000,
+      autoplaySpeed: 2500,
+      dots: false,
+      responsive: {
+
+        0: {
+          items: 1
+        }
+        ,
+        550: {
+          items: 2
+        },
+        600: {
+          items: 2
+        },
+        750: {
+          items: 3
+        },
+        1100: {
+          items: 4
+        },
+        1400: {
+          items: 5
+        }
+      }
+    });
+  </script>
+
+  <!-- Aos js link -->
+  <script src="js/aos.js"></script>
+  <script src='https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js'></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    $(document).on('click', function () {
+      $('.collapse').collapse('hide');
+    })
+  </script>
+</body>
+
+</html>
